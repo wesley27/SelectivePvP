@@ -1,0 +1,15 @@
+#SelectivePvP by wesley27 Configuration
+
+#list the items you want to allow as weapons here. You must use the material names.
+#material names can be found here: http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+allowed-weapons:
+  - DIAMOND_SWORD
+  - IRON_SWORD
+  - GOLD_SWORD
+  - STONE_SWORD
+  - WOOD_SWORD
+
+#Set this to true to allow players to defend themselves with any item after being attacked
+self-defence-enabled: true
+#Set this to the number of seconds you want the player to have self-defence 
+self-defence-time: 5

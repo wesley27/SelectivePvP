@@ -1,0 +1,11 @@
+name: SelectivePvP
+main: com.wesley27.selectivepvp.SelectivePvP
+version: 1.0
+description: Choose what items people can use to pvp
+author: wesley27
+commands:
+    selectivepvp:
+      description: Reload SelectivePvP's Configuration
+      usage: |
+          /selectivepvp reload - Reloads Config 
+      aliases: [selpvp, spvp]
