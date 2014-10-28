@@ -73,6 +73,12 @@ public class SelectivePvP extends JavaPlugin implements Listener
 								victims.remove(victim.getName());
 							}
 						}, (getConfig().getInt("self-defence-time") * 1000));
+						
+						if(victim.isDead())
+						{
+							t.cancel();
+							victims.remove(victim.getName());
+						}
 					}
 				}
 			}
