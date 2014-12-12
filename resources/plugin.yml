@@ -1,7 +1,7 @@
 name: SelectivePvP
 main: com.wesley27.selectivepvp.SelectivePvP
-version: 1.0
-description: Choose what items people can use to pvp
+version: 1.0.1
+description: Choose what items people can use to pvp, to protect the defenseless
 author: wesley27
 commands:
     selectivepvp:

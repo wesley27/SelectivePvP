@@ -3,18 +3,6 @@
   <groupId>SelectivePvP</groupId>
   <artifactId>SelectivePvP</artifactId>
   <version>1.0</version>
-  <repositories>
-        <repository>
-            <id>bukkit-repo</id>
-            <url>http://repo.bukkit.org/content/groups/public</url>
-            <releases>
-                <updatePolicy>always</updatePolicy>
-            </releases>
-            <snapshots>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -32,7 +20,10 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.7.9-R0.2</version>
+            <version>1.8-R0.1-SNAPSHOT</version>
+			<optional>true</optional>
+            <scope>system</scope>
+            <systemPath>${env.BUKKIT_BUILD}\Bukkit-1.8-R0.1-SNAPSHOT.jar</systemPath>
         </dependency>
   </dependencies>          
   <name>SelectivePvP</name>
